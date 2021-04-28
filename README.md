@@ -1,0 +1,1 @@
+This project is an assessment of skills and knowledge I have learned pertaining to HTML, CSS, and Git.
