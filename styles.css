@@ -1,0 +1,23 @@
+#googlelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+  
+    }
+#searchbar {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 45px;
+    width: 500px;
+    border-radius: 25px;
+    border-width: thin;
+    border-style: inset;
+    opacity: 0.6;
+}
+#searchbar:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
