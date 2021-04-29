@@ -1,23 +1,29 @@
+body {
+   font-family: Arial;
+   }
+
 #googlelogo {
-    display: block;
+       display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 250px;
   
     }
 #text {
-   display: block;
+    display: block;
     height: 44px;
     width: 582px;
-    border-radius: 25px;
+    border-radius: 24px;
     border-width: thin;
-    border-style: inset;
+    border-style: outset;
+    border: 1px solid #dfe1e5;
     opacity: 0.6;
     outline: none;
     padding-left: 45px;
     font-size: 16px;
     margin-left: auto;
-    margin-right: auto;      
+    margin-right: auto;     
+    
    }
 
 
@@ -56,4 +62,63 @@
 
 .buttons {
   text-align: center;
+  padding: 14px;
+  border: 1px  #f8f9fa;
+  font-size: 14px;
    }
+
+   .buttons input{
+      background-color: #f8f9fa;
+      
+   }
+   #search:hover{
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+   }
+   #lucky:hover{
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    }
+   
+    .navbar {
+       display: flex;
+       justify-content: flex-end;
+       margin: 0;
+       list-style: none;
+       
+    }
+.navbar a{
+   display: block;
+   padding: 1em;
+   text-decoration: none;
+   color: black;
+   
+}
+.navbar a:hover{
+   text-decoration: underline;
+}
+.navbar input {
+   background: #1a73e8;
+   color: white;
+   border: 1px solid transparent;
+   font-weight: 500;
+   font-size: 14px;
+   letter-spacing: .25px;
+   line-height: 16px;
+   margin-left: 10px;
+   margin-right: 8px;
+   padding: 9px 23px;
+   text-align: center;    
+   border-radius: 4px;
+   
+}
+#signin:hover {
+   box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+#store {
+   margin-right: 94rem;
+}
