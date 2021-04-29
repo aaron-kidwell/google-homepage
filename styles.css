@@ -5,19 +5,55 @@
     margin-top: 250px;
   
     }
-#searchbar {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    height: 45px;
-    width: 500px;
+#text {
+   display: block;
+    height: 44px;
+    width: 582px;
     border-radius: 25px;
     border-width: thin;
     border-style: inset;
     opacity: 0.6;
+    outline: none;
+    padding-left: 45px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;      
+   }
+
+
+
+#text:hover{
+   background-color: #fff;
+   box-shadow: 0 1px 6px rgba(32,33,36,.28);
+   border-color: rgba(223,225,229,0);    
 }
-#searchbar:hover{
-    background-color: #fff;
-    box-shadow: 0 1px 6px rgba(32,33,36,.28);
-    border-color: rgba(223,225,229,0);
+
+#search-icon {
+   position: relative;
+   fill: gray;
+   height: 20px;
+   width: 20px;         
+   margin-left: 240px;
+   bottom: 30px;
+   left: 440px;
+   }
+     #text::-webkit-search-cancel-button{
+      position: relative;
+      right: 50px;
+      font-size: 25px;
+   }
+
+
+#microphone {
+   display: block;
+   height: 24px;
+   width: 24px;
+   float: right;
+   position: relative;
+   right: 680px;
+   bottom: 33px;  
 }
+
+.buttons {
+  text-align: center;
+   }
