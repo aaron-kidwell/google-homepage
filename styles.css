@@ -1,16 +1,18 @@
 body {
-   font-family: Arial;
+   font-family: Arial;   
    }
 
 #googlelogo {
        display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
-  
+    margin-top: 250px;  
     }
+
+    
+
 #text {
-    display: block;
+    
     height: 44px;
     width: 582px;
     border-radius: 24px;
@@ -22,8 +24,7 @@ body {
     padding-left: 45px;
     font-size: 16px;
     margin-left: auto;
-    margin-right: auto;     
-    
+    margin-right: auto;    
    }
 
 
@@ -35,14 +36,14 @@ body {
 }
 
 #search-icon {
-   position: relative;
+   position: relative; 
    fill: gray;
    height: 20px;
-   width: 20px;         
-   margin-left: 240px;
-   bottom: 30px;
-   left: 440px;
+   width: 20px;  
+   right: 1200px;
+   top: 13px;
    }
+
      #text::-webkit-search-cancel-button{
       position: relative;
       right: 50px;
@@ -51,13 +52,13 @@ body {
 
 
 #microphone {
-   display: block;
+   
    height: 24px;
-   width: 24px;
-   float: right;
+   width: 24px;   
    position: relative;
-   right: 680px;
-   bottom: 33px;  
+   top: 10px;
+   right: 700px;
+   
 }
 
 .buttons {
@@ -86,11 +87,12 @@ body {
    
     .navbar {
        display: flex;
-       justify-content: flex-end;
+       justify-content: center;
        margin: 0;
-       
-             
+       right: 0px;
+       left: 0px;             
     }
+
 .navbar a{
    display: block;
    padding: .8rem;   
@@ -120,28 +122,22 @@ body {
    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 #store {
-   margin-right: 94rem;
+   margin-right: 1500px;
 }
 .footer {       
    display: flex;
    position: absolute;        
    background: #f2f2f2;
    bottom: 0px;
-   right: 0;
-   left: 0;   
+   right: 0px;
+   left: 0px;   
    text-align: center;
-   padding: .8rem;
-   
-
-          
+   padding: .8rem;          
 }
-.footer a{   
-   
+.footer a{     
    text-decoration: none;
-   color: gray;
-  
-   padding: 5px;  
-  
+   color: gray;  
+   padding: 3px;    
 }
 
 .footer a:hover{
@@ -149,5 +145,51 @@ body {
 }
 
 #itworks {
-   margin-right: 79rem;
+   margin-right: 1310px;
+}
+.inputs {
+   
+   height: 50px;
+   display: flex; 
+   width: 100%;
+}
+@media (max-device-width: 400px){
+body {
+font-size: 30px;
+}
+.footer {
+   display: flex;   
+  
+   bottom: 0px;
+   width: 100%;
+}
+#store {
+   margin-right: 400px;
+}
+
+.navbar {
+   
+   width: 100%;
+}
+
+#itworks {
+   margin-right: 50px;
+}
+#search-icon {
+   position: relative; 
+   fill: gray;
+   height: 20px;
+   width: 20px;  
+   right: 730px;
+   top: 13px;
+   }
+   #microphone {
+   
+      height: 24px;
+      width: 24px;   
+      position: relative;
+      top: 10px;
+      right: 230px;
+      
+   }
 }
