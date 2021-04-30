@@ -1,1 +1,2 @@
-This project is an assessment of skills and knowledge I have learned pertaining to HTML, CSS, and Git.
+This project is part of a portfolio of skills and knowledge I have learned pertaining to HTML, CSS, and Git.
+Over the course of this specific project I have overcame obstacles related to CSS Flex and successfully created media queries to increase responsiveness.
